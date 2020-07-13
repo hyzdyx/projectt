@@ -10,7 +10,8 @@ public enum RetCode {
     //错误
     FALSE(404),
 
-    //内部错误master
+    //内部错误
+
     ERROR(500);
 
     private int code;
@@ -26,11 +27,5 @@ public enum RetCode {
     public void setCode(int code) {
         this.code = code;
     }
-
-
-
-
-
-
 
 }

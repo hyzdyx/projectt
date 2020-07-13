@@ -10,7 +10,7 @@ public enum RetCode {
     //错误
     FALSE(404),
 
-    //内部错误
+    //内部错误secondBranch
     ERROR(500);
 
     private int code;
